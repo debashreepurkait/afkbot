@@ -1,0 +1,11 @@
+{
+  "name": "bedrock-afk-bot",
+  "version": "1.0.0",
+  "description": "Authenticated headless Bedrock AFK bot",
+  "main": "bot.js",
+  "license": "MIT",
+  "dependencies": {
+    "bedrock-protocol": "https://codeload.github.com/PrismarineJS/bedrock-protocol/tar.gz/refs/heads/master",
+    "prismarine-auth": "^3.0.0"
+  }
+}
