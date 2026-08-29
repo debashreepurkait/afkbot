@@ -388,7 +388,8 @@ async function startBot() {
       host: HOST,
       port: PORT,
       authflow: authFlow,
-      connectTimeout: CONNECT_TIMEOUT_MS
+      connectTimeout: CONNECT_TIMEOUT_MS,
+      viewDistance: 1
     })
 
     attachClientHandlers(client)
